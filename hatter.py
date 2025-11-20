@@ -1,3 +1,4 @@
+import random
 def bekeres(lista):
     joadat= True
     while joadat:
@@ -32,7 +33,7 @@ def bekeres(lista):
     return lista
     
 
-def geplepes():
+def geplepes(lista):
     i=0
     while i<len(lista):
         pozicio=0
@@ -52,6 +53,7 @@ def geplepes():
             return lista
         i+=1
 
-def ellenorzes():
+def ellenorzes(lista):
     if lista[0] and lista[1] and lista[2] or lista[3] and lista[4] and lista[5] or lista[6] and lista[7] and lista[8] or lista[0] and lista[4] and lista[7] or lista[2] and lista[4] and lista[6] or lista[0] and lista[3] and lista[6] or lista[1] and lista[4] and lista[7] or lista[2] and lista[5] and lista[8] == "X" or "O":
         print("véget ért'")
+        return True
