@@ -1,6 +1,5 @@
 import random
 import kiiras
-vegevan_e=0
 lista=[" "," "," ",
        " "," "," ",
        " "," "," "]
