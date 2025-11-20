@@ -1,5 +1,3 @@
-
-
 def kiir(lista):
     print(f'_ _ _ ')
     print(f'|{lista[0]}|{lista[1]}|{lista[2]}|')
