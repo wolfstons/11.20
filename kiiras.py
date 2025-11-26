@@ -6,6 +6,7 @@ def kiir(lista):
     print(f'|_|_|_|')
     print(f'|{lista[6]}|{lista[7]}|{lista[8]}|')
     print(f'|_|_|_|)')
+    
 
 
 
